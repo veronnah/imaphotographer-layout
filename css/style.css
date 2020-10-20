@@ -225,7 +225,7 @@ a {
 }
 
 .about__me {
-    height: 835px;
+    height: 690px;
     padding-top: 130px;
 }
 
@@ -389,10 +389,11 @@ a {
     margin-top: 65px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     align-items: center;
     grid-row-gap: 50px;
     grid-column-gap: 65px;
+    padding-bottom: 100px;
 }
 
 .my__services_item__title {
@@ -442,11 +443,93 @@ a {
     padding-top: 130px;
 }
 
-.hire__me{
-    min-height: 362px;
-    background-color: #22222b;
+.portfolio {
+    padding-top: 85px;
+    padding-bottom: 130px;
+    display: grid;
+    grid-template: repeat(7, 83px) / 1fr 1fr 1fr;
+    grid-gap: 38px;
+}
+.portfolio-01{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.portfolio-02{
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+.portfolio-03{
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+.portfolio-04{
+    grid-column: 1/2;
+    grid-row: 4/8;
+}
+.portfolio-05{
+    grid-column: 2/3;
+    grid-row: 5/8;
+}
+.portfolio-06{
+    grid-column: 3/4;
+    grid-row: 4/8;
+}
+.my__portfolio-heading {
+}
+.heading {
+}
+.my__portfolio-heading__title {
+}
+.title {
+}
+.my__portfolio-heading__subtitle {
+}
+.subtitle {
+}
+.portfolio-item {
+}
+.portfolio-thumb {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.portfolio-thumb img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
+.hire__me{
+    padding-top: 72px;
+    padding-bottom: 100px;
+    background-color: #22222b;
+    color: #fff;
+    text-align: center;
+}
+.hire__me-heading__subtitle {
+    font-size: 22px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+.hire__me-heading__title{
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 36px;
+    margin: 0%;
+}
+.btn{
+    background-color: #fff;
+    color: #22222b;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 45px;
+
+}
 
 .testimonials{
     min-height: 715px;
