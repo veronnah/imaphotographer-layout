@@ -474,19 +474,8 @@ a {
     grid-column: 3/4;
     grid-row: 4/8;
 }
-.my__portfolio-heading {
-}
-.heading {
-}
-.my__portfolio-heading__title {
-}
-.title {
-}
-.my__portfolio-heading__subtitle {
-}
-.subtitle {
-}
-.portfolio-item {
+.portfolio-item{
+    cursor: pointer;
 }
 .portfolio-thumb {
     position: relative;
@@ -533,4 +522,43 @@ a {
 
 .testimonials{
     min-height: 715px;
+}
+.testimonials-heading__title{
+    margin-top: 130px;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+.testimonials__subtitle{
+    font-size: 16px;
+    text-align: center;
+    color: #7f7f82;
+}
+
+.quotes-block {
+    height: 270px;
+    display: grid;
+    grid-gap: 120px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+.avatar__name{
+    display: grid;
+    grid-template-columns: 6em 1fr;
+}
+.expert_1 {
+}
+.name_name {
+}
+.prof {
+}
+.quote_1 {
+    grid-column: 1/6;
+}
+.expert_2 {
+}
+.avatar_2 {
+}
+.quote_2 {
+    grid-column: 6/11;
 }
