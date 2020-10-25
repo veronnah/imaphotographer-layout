@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Im a photographer</title>
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./libs/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -200,32 +201,32 @@
             <div class="portfolio">
                 <div class="portfolio-item portfolio-01">
                     <div class="portfolio-thumb">
-                        <img src="./img/work_1.jpg" alt="work1">
+                        <a data-fancybox="gallery" href="./img/work_1.jpg"><img src="./img/work_1.jpg" alt="work1"></a>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-02">
                     <div class="portfolio-thumb">
-                        <img src="./img/work_2.jpg" alt="work2">
+                        <a data-fancybox="gallery" href="./img/work_2.jpg"><img src="./img/work_2.jpg" alt="work2"></a>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-03">
                     <div class="portfolio-thumb">
-                        <img src="./img/work_3.jpg" alt="work3">
+                        <a data-fancybox="gallery" href="./img/work_3.jpg"><img src="./img/work_3.jpg" alt="work3"></a>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-04">
                     <div class="portfolio-thumb">
-                        <img src="./img/work_4.jpg" alt="work4">
+                        <a data-fancybox="gallery" href="./img/work_4.jpg"><img src="./img/work_4.jpg" alt="work4"></a>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-05">
                     <div class="portfolio-thumb">
-                        <img src="./img/work_5.jpg" alt="work5">
+                        <a data-fancybox="gallery" href="./img/work_5.jpg"><img src="./img/work_5.jpg" alt="work5"></a>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-06">
                     <div class="portfolio-thumb">
-                        <img src="./img/work_6.jpg" alt="work6">
+                       <a data-fancybox="gallery" href="./img/work_6.jpg"><img src="./img/work_6.jpg" alt="work6"></a>
                     </div>
                 </div>
             </div>
@@ -254,7 +255,7 @@
                             <p class="prof">UI/UX Designer</p>
                         </div>
                    </div>
-                    <p class="quote_1">
+                    <p class="quote_1 quote">
                         <i>Finding the right partner to help make this goal a reality was key. The smart and creative team
                             at Blue Fountain Media has helped anthony.com establish itself as a successful online business
                             and become synonymous with an enjoyable solutions.</i>
@@ -271,32 +272,80 @@
                             <p class="prof">Frontend Dev</p>
                         </div>
                     </div>
-                    <p class="quote_2">
+                    <p class="quote_2 quote">
                         <i>Blue Fountain Media came up with the design on their first try, delivered the complete package on
                             a reasonable budget, and continued to fine-tune it. That wasn't enough -- they also created a
-                            plan to market the website and increase traffic.~</i>
+                            plan to market the website and increase traffic.</i>
                     </p>
                 </div>
-
-               
-
-              
-
             </div>
-
         </div>
     </section>
-
+    <section class="opinion">
+        <div class="wrapper">
+            <div class="opinion__elements">
+            <div class="element">
+                <div class="circle__customers">
+                    <img src="./img/Icon-heart.png" alt="">
+                    <h3 class="element__title">1325</h3>
+                    <p class="element__subtitle">Happy customers</p>
+                </div>
+            </div>
+            <div class="element">
+                <div class="circle__project">
+                    <img src="./img/Icon-business.png" alt="">
+                    <h3 class="element__title">1214</h3>
+                    <p class="element__subtitle">Completed Project</p>
+                </div>
+            </div>
+            <div class="element">
+                <div class="circle__experience">
+                    <img src="./img/Icon-experience.png" alt="">
+                    <h3 class="element__title">10</h3>
+                    <p class="element__subtitle">Years Experience</p>
+                </div>
+            </div>
+            <div class="element">
+                <div class="circle__awards">
+                    <img src="./img/Icon-awards.png" alt="">
+                    <h3 class="element__title">375</h3>
+                    <p class="element__subtitle">Wins Awards</p>
+                </div>
+            </div>
+            </div>
+        </div>
     </section>
-    <section class="Opinion">
-
+    <section class="getin__touch">
+        <div class="wrapper">
+            <h4 class="getintouch-heading__title">Get in Touch</h4>
+            <p class="getintouch-heading__subtitle">Have you any quistion? Send me message without hesitated</p>
+            <form class= "getin__touch-form" action="">
+                <input autocomplete="chrome-off" type="text" name="name" placeholder="Your Full Name" >
+                <input autocomplete="off" name="email" placeholder="Email Address" type="email">
+                <textarea class="form__textarea" name="message" placeholder="Your Message"></textarea>
+                <button type="submit" class="form__btn">Send Message</button>
+            </form>
+        </div>
     </section>
-    <section class="getin__touch"></section>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer_elements">
+                <div class="footer__copyright">&copy; Copyright 2020 iGlyphic. All rights reserved</div>
+                <div class="social__media">
+                    <a class="socials" target="_blank" href="#!"> <img src="./img/facebook.png" alt=""></a>
+                    <a class="socials" target="_blank" href="#!"> <img src="./img/twitter-16.png" alt=""></a>
+                    <a class="socials" target="_blank" href="#!"> <img src="./img/instagram-16.png" alt=""></a>
+                    <a class="socials" target="_blank" href="#!"> <img src="./img/youtube-4-16.png" alt=""></a>
+                    <a class="socials" target="_blank" href="#!"> <img src="./img/google-plus-16.png" alt=""></a>
+                    <a class="socials" target="_blank" href="#!"> <img src="./img/pinterest-16.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <foote class="footer">
-
-        </footer>
-
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/libs/jquery.fancybox.min.js"></script>
         <script src="js/main.js"></script>
 </body>
 
